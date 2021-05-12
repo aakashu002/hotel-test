@@ -2,12 +2,15 @@ import React, { Component } from 'react'
 
 
  class Resturent extends Component {
-   
-
+    // constructor(props) {
+    //     super(props);
+    // }
     render() {
+        const {item} = this.props.location.state;
+        console.log("rest rend...", item);
         return (
             <div>
-                <h5>resturent</h5>
+                {item.name}
             </div>
         )
     }
