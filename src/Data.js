@@ -408,17 +408,17 @@ import { Link } from 'react-router-dom';
         return (
             <div>
                 <ul >
-                    {/* {
+                    {
                         this.state.Hotel.map((item,index)=>{
                         return <li key={item.id}>
                             {item.id} - {item.name} 
                         </li>
-                    })} */}
+                    })}
                      
         <h3>List of Hotel</h3>
         <div class="" >
-          <Link class="" to="/Resturent" onClick={this.clickMe} >Mission Chinese Food</Link>
-          <Link class="" to="/Resturent" >Emily</Link>
+          <Link class="dropdown-item" to="/Resturent" onClick={this.clickMe} >Mission Chinese Food</Link>
+          <Link class="dropdown-item" to="/Resturent" >Emily</Link>
           <Link class="dropdown-item" to="/Resturent" >Kang Ho Dong Baekjeong</Link>
           <Link class="dropdown-item" to="/Resturent" >Katz's Delicatessen</Link>
           <Link class="dropdown-item" to="/Resturent" >Roberta's Pizza</Link>
@@ -437,4 +437,4 @@ import { Link } from 'react-router-dom';
     }
 }
 
-export default data;
+export default Data;
